@@ -15,10 +15,10 @@
 		D83470701D78B1A5003AE200 /* Damage_Analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = D834706E1D78B1A5003AE200 /* Damage_Analysis.c */; };
 		D89C7D701D7DEC0A002930AB /* Random_Cell_Chooser.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D6E1D7DEC0A002930AB /* Random_Cell_Chooser.c */; };
 		D89C7D731D7DF74F002930AB /* Ship_Locator.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D711D7DF74F002930AB /* Ship_Locator.c */; };
-		D89C7D761D7DFB06002930AB /* LEFT_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D741D7DFB06002930AB /* LEFT_Placer.c */; };
-		D89C7D791D7E0283002930AB /* RIGHT_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D771D7E0283002930AB /* RIGHT_Placer.c */; };
-		D89C7D7C1D7E04CD002930AB /* UP_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7A1D7E04CD002930AB /* UP_Placer.c */; };
-		D89C7D7F1D7E0660002930AB /* DOWN_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */; };
+		D89C7D761D7DFB06002930AB /* Left_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D741D7DFB06002930AB /* Left_Placer.c */; };
+		D89C7D791D7E0283002930AB /* Right_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D771D7E0283002930AB /* Right_Placer.c */; };
+		D89C7D7C1D7E04CD002930AB /* Up_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7A1D7E04CD002930AB /* Up_Placer.c */; };
+		D89C7D7F1D7E0660002930AB /* Down_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7D1D7E0660002930AB /* Down_Placer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,14 +50,14 @@
 		D89C7D6F1D7DEC0A002930AB /* Random_Cell_Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random_Cell_Chooser.h; sourceTree = "<group>"; };
 		D89C7D711D7DF74F002930AB /* Ship_Locator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ship_Locator.c; sourceTree = "<group>"; };
 		D89C7D721D7DF74F002930AB /* Ship_Locator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship_Locator.h; sourceTree = "<group>"; };
-		D89C7D741D7DFB06002930AB /* LEFT_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LEFT_Placer.c; sourceTree = "<group>"; };
-		D89C7D751D7DFB06002930AB /* LEFT_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEFT_Placer.h; sourceTree = "<group>"; };
-		D89C7D771D7E0283002930AB /* RIGHT_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RIGHT_Placer.c; sourceTree = "<group>"; };
-		D89C7D781D7E0283002930AB /* RIGHT_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIGHT_Placer.h; sourceTree = "<group>"; };
-		D89C7D7A1D7E04CD002930AB /* UP_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UP_Placer.c; sourceTree = "<group>"; };
-		D89C7D7B1D7E04CD002930AB /* UP_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UP_Placer.h; sourceTree = "<group>"; };
-		D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DOWN_Placer.c; sourceTree = "<group>"; };
-		D89C7D7E1D7E0660002930AB /* DOWN_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOWN_Placer.h; sourceTree = "<group>"; };
+		D89C7D741D7DFB06002930AB /* Left_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Left_Placer.c; sourceTree = "<group>"; };
+		D89C7D751D7DFB06002930AB /* Left_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Left_Placer.h; sourceTree = "<group>"; };
+		D89C7D771D7E0283002930AB /* Right_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Right_Placer.c; sourceTree = "<group>"; };
+		D89C7D781D7E0283002930AB /* Right_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Right_Placer.h; sourceTree = "<group>"; };
+		D89C7D7A1D7E04CD002930AB /* Up_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Up_Placer.c; sourceTree = "<group>"; };
+		D89C7D7B1D7E04CD002930AB /* Up_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Up_Placer.h; sourceTree = "<group>"; };
+		D89C7D7D1D7E0660002930AB /* Down_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Down_Placer.c; sourceTree = "<group>"; };
+		D89C7D7E1D7E0660002930AB /* Down_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Down_Placer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +105,14 @@
 				D89C7D6F1D7DEC0A002930AB /* Random_Cell_Chooser.h */,
 				D89C7D711D7DF74F002930AB /* Ship_Locator.c */,
 				D89C7D721D7DF74F002930AB /* Ship_Locator.h */,
-				D89C7D741D7DFB06002930AB /* LEFT_Placer.c */,
-				D89C7D751D7DFB06002930AB /* LEFT_Placer.h */,
-				D89C7D771D7E0283002930AB /* RIGHT_Placer.c */,
-				D89C7D781D7E0283002930AB /* RIGHT_Placer.h */,
-				D89C7D7A1D7E04CD002930AB /* UP_Placer.c */,
-				D89C7D7B1D7E04CD002930AB /* UP_Placer.h */,
-				D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */,
-				D89C7D7E1D7E0660002930AB /* DOWN_Placer.h */,
+				D89C7D741D7DFB06002930AB /* Left_Placer.c */,
+				D89C7D751D7DFB06002930AB /* Left_Placer.h */,
+				D89C7D771D7E0283002930AB /* Right_Placer.c */,
+				D89C7D781D7E0283002930AB /* Right_Placer.h */,
+				D89C7D7A1D7E04CD002930AB /* Up_Placer.c */,
+				D89C7D7B1D7E04CD002930AB /* Up_Placer.h */,
+				D89C7D7D1D7E0660002930AB /* Down_Placer.c */,
+				D89C7D7E1D7E0660002930AB /* Down_Placer.h */,
 			);
 			path = BattleShipGame;
 			sourceTree = "<group>";
@@ -177,13 +177,13 @@
 				D834706D1D78AC20003AE200 /* Game_Cycle.c in Sources */,
 				D834706A1D754FA5003AE200 /* Ships_Positioning.c in Sources */,
 				D83470591D74F901003AE200 /* Start_Game.c in Sources */,
-				D89C7D7F1D7E0660002930AB /* DOWN_Placer.c in Sources */,
-				D89C7D7C1D7E04CD002930AB /* UP_Placer.c in Sources */,
+				D89C7D7F1D7E0660002930AB /* Down_Placer.c in Sources */,
+				D89C7D7C1D7E04CD002930AB /* Up_Placer.c in Sources */,
 				D83470701D78B1A5003AE200 /* Damage_Analysis.c in Sources */,
-				D89C7D791D7E0283002930AB /* RIGHT_Placer.c in Sources */,
+				D89C7D791D7E0283002930AB /* Right_Placer.c in Sources */,
 				D89C7D701D7DEC0A002930AB /* Random_Cell_Chooser.c in Sources */,
 				D89C7D731D7DF74F002930AB /* Ship_Locator.c in Sources */,
-				D89C7D761D7DFB06002930AB /* LEFT_Placer.c in Sources */,
+				D89C7D761D7DFB06002930AB /* Left_Placer.c in Sources */,
 				D83470641D75039C003AE200 /* Global_Data.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

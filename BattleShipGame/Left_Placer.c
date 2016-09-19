@@ -1,12 +1,12 @@
 //
-//  LEFT_Placer.c
+//  Left_Placer.c
 //  BattleShipGame
 //
 //  Created by Maxim Bublowskiy on 2016-09-05.
 //  Copyright © 2016 Maxim Bublovskiy. All rights reserved.
 //
 
-#include "LEFT_Placer.h"
+#include "Left_Placer.h"
 
 
 bool place_left(int size, int shipNumber, int i, int j) {

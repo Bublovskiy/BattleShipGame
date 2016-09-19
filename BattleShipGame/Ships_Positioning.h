@@ -15,10 +15,10 @@
 #include <stdbool.h>
 #include "Global_Data.h"
 #include "Random_Cell_Chooser.h"
-#include "LEFT_Placer.h"
-#include "RIGHT_Placer.h"
-#include "UP_Placer.h"
-#include "DOWN_Placer.h"
+#include "Left_Placer.h"
+#include "Right_Placer.h"
+#include "Up_Placer.h"
+#include "Down_Placer.h"
 
 //place ships randomely in the matrix
 void placeShip(int size, int shipNumber);

@@ -1,12 +1,12 @@
 //
-//  RIGHT_Placer.c
+//  Right_Placer.c
 //  BattleShipGame
 //
 //  Created by Maxim Bublowskiy on 2016-09-05.
 //  Copyright © 2016 Maxim Bublovskiy. All rights reserved.
 //
 
-#include "RIGHT_Placer.h"
+#include "Right_Placer.h"
 
 bool place_right(int size, int shipNumber, int i, int j) {
     
