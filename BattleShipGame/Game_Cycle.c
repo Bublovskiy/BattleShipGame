@@ -23,7 +23,7 @@ void startTheGame() {
     printf("=(111 - Exit, 999 - See the ships)=\n");
     printf("===================================\n\n");
     
-    while (shallExitGame == false) {
+    while (!shallExitGame) {
 
         //set input validation
         do {
