@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83470591D74F901003AE200 /* Start_Game.c in Sources */ = {isa = PBXBuildFile; fileRef = D83470581D74F901003AE200 /* Start_Game.c */; };
+		D83470641D75039C003AE200 /* Global_Data.c in Sources */ = {isa = PBXBuildFile; fileRef = D83470621D75039C003AE200 /* Global_Data.c */; };
+		D83470671D75089A003AE200 /* Matrix_Printer.c in Sources */ = {isa = PBXBuildFile; fileRef = D83470651D75089A003AE200 /* Matrix_Printer.c */; };
+		D834706A1D754FA5003AE200 /* Ships_Positioning.c in Sources */ = {isa = PBXBuildFile; fileRef = D83470681D754FA5003AE200 /* Ships_Positioning.c */; };
+		D834706D1D78AC20003AE200 /* Game_Cycle.c in Sources */ = {isa = PBXBuildFile; fileRef = D834706B1D78AC20003AE200 /* Game_Cycle.c */; };
+		D83470701D78B1A5003AE200 /* Damage_Analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = D834706E1D78B1A5003AE200 /* Damage_Analysis.c */; };
+		D89C7D701D7DEC0A002930AB /* Random_Cell_Chooser.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D6E1D7DEC0A002930AB /* Random_Cell_Chooser.c */; };
+		D89C7D731D7DF74F002930AB /* Ship_Locator.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D711D7DF74F002930AB /* Ship_Locator.c */; };
+		D89C7D761D7DFB06002930AB /* LEFT_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D741D7DFB06002930AB /* LEFT_Placer.c */; };
+		D89C7D791D7E0283002930AB /* RIGHT_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D771D7E0283002930AB /* RIGHT_Placer.c */; };
+		D89C7D7C1D7E04CD002930AB /* UP_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7A1D7E04CD002930AB /* UP_Placer.c */; };
+		D89C7D7F1D7E0660002930AB /* DOWN_Placer.c in Sources */ = {isa = PBXBuildFile; fileRef = D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D83470531D74F901003AE200 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D83470551D74F901003AE200 /* BattleShipGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BattleShipGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83470581D74F901003AE200 /* Start_Game.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Start_Game.c; sourceTree = "<group>"; };
+		D83470621D75039C003AE200 /* Global_Data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Global_Data.c; sourceTree = "<group>"; };
+		D83470631D75039C003AE200 /* Global_Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global_Data.h; sourceTree = "<group>"; };
+		D83470651D75089A003AE200 /* Matrix_Printer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix_Printer.c; sourceTree = "<group>"; };
+		D83470661D75089A003AE200 /* Matrix_Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix_Printer.h; sourceTree = "<group>"; };
+		D83470681D754FA5003AE200 /* Ships_Positioning.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ships_Positioning.c; sourceTree = "<group>"; };
+		D83470691D754FA5003AE200 /* Ships_Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ships_Positioning.h; sourceTree = "<group>"; };
+		D834706B1D78AC20003AE200 /* Game_Cycle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Game_Cycle.c; sourceTree = "<group>"; };
+		D834706C1D78AC20003AE200 /* Game_Cycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game_Cycle.h; sourceTree = "<group>"; };
+		D834706E1D78B1A5003AE200 /* Damage_Analysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Damage_Analysis.c; sourceTree = "<group>"; };
+		D834706F1D78B1A5003AE200 /* Damage_Analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Damage_Analysis.h; sourceTree = "<group>"; };
+		D89C7D6E1D7DEC0A002930AB /* Random_Cell_Chooser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Random_Cell_Chooser.c; sourceTree = "<group>"; };
+		D89C7D6F1D7DEC0A002930AB /* Random_Cell_Chooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random_Cell_Chooser.h; sourceTree = "<group>"; };
+		D89C7D711D7DF74F002930AB /* Ship_Locator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ship_Locator.c; sourceTree = "<group>"; };
+		D89C7D721D7DF74F002930AB /* Ship_Locator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship_Locator.h; sourceTree = "<group>"; };
+		D89C7D741D7DFB06002930AB /* LEFT_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LEFT_Placer.c; sourceTree = "<group>"; };
+		D89C7D751D7DFB06002930AB /* LEFT_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEFT_Placer.h; sourceTree = "<group>"; };
+		D89C7D771D7E0283002930AB /* RIGHT_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RIGHT_Placer.c; sourceTree = "<group>"; };
+		D89C7D781D7E0283002930AB /* RIGHT_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIGHT_Placer.h; sourceTree = "<group>"; };
+		D89C7D7A1D7E04CD002930AB /* UP_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UP_Placer.c; sourceTree = "<group>"; };
+		D89C7D7B1D7E04CD002930AB /* UP_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UP_Placer.h; sourceTree = "<group>"; };
+		D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DOWN_Placer.c; sourceTree = "<group>"; };
+		D89C7D7E1D7E0660002930AB /* DOWN_Placer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOWN_Placer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83470521D74F901003AE200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D834704C1D74F901003AE200 = {
+			isa = PBXGroup;
+			children = (
+				D83470571D74F901003AE200 /* BattleShipGame */,
+				D83470561D74F901003AE200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83470561D74F901003AE200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83470551D74F901003AE200 /* BattleShipGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83470571D74F901003AE200 /* BattleShipGame */ = {
+			isa = PBXGroup;
+			children = (
+				D83470581D74F901003AE200 /* Start_Game.c */,
+				D834706B1D78AC20003AE200 /* Game_Cycle.c */,
+				D834706C1D78AC20003AE200 /* Game_Cycle.h */,
+				D83470621D75039C003AE200 /* Global_Data.c */,
+				D83470631D75039C003AE200 /* Global_Data.h */,
+				D83470651D75089A003AE200 /* Matrix_Printer.c */,
+				D83470661D75089A003AE200 /* Matrix_Printer.h */,
+				D83470681D754FA5003AE200 /* Ships_Positioning.c */,
+				D83470691D754FA5003AE200 /* Ships_Positioning.h */,
+				D834706E1D78B1A5003AE200 /* Damage_Analysis.c */,
+				D834706F1D78B1A5003AE200 /* Damage_Analysis.h */,
+				D89C7D6E1D7DEC0A002930AB /* Random_Cell_Chooser.c */,
+				D89C7D6F1D7DEC0A002930AB /* Random_Cell_Chooser.h */,
+				D89C7D711D7DF74F002930AB /* Ship_Locator.c */,
+				D89C7D721D7DF74F002930AB /* Ship_Locator.h */,
+				D89C7D741D7DFB06002930AB /* LEFT_Placer.c */,
+				D89C7D751D7DFB06002930AB /* LEFT_Placer.h */,
+				D89C7D771D7E0283002930AB /* RIGHT_Placer.c */,
+				D89C7D781D7E0283002930AB /* RIGHT_Placer.h */,
+				D89C7D7A1D7E04CD002930AB /* UP_Placer.c */,
+				D89C7D7B1D7E04CD002930AB /* UP_Placer.h */,
+				D89C7D7D1D7E0660002930AB /* DOWN_Placer.c */,
+				D89C7D7E1D7E0660002930AB /* DOWN_Placer.h */,
+			);
+			path = BattleShipGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83470541D74F901003AE200 /* BattleShipGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D834705C1D74F901003AE200 /* Build configuration list for PBXNativeTarget "BattleShipGame" */;
+			buildPhases = (
+				D83470511D74F901003AE200 /* Sources */,
+				D83470521D74F901003AE200 /* Frameworks */,
+				D83470531D74F901003AE200 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleShipGame;
+			productName = BattleShipGame;
+			productReference = D83470551D74F901003AE200 /* BattleShipGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D834704D1D74F901003AE200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Maxim Bublovskiy";
+				TargetAttributes = {
+					D83470541D74F901003AE200 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D83470501D74F901003AE200 /* Build configuration list for PBXProject "BattleShipGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D834704C1D74F901003AE200;
+			productRefGroup = D83470561D74F901003AE200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83470541D74F901003AE200 /* BattleShipGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83470511D74F901003AE200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83470671D75089A003AE200 /* Matrix_Printer.c in Sources */,
+				D834706D1D78AC20003AE200 /* Game_Cycle.c in Sources */,
+				D834706A1D754FA5003AE200 /* Ships_Positioning.c in Sources */,
+				D83470591D74F901003AE200 /* Start_Game.c in Sources */,
+				D89C7D7F1D7E0660002930AB /* DOWN_Placer.c in Sources */,
+				D89C7D7C1D7E04CD002930AB /* UP_Placer.c in Sources */,
+				D83470701D78B1A5003AE200 /* Damage_Analysis.c in Sources */,
+				D89C7D791D7E0283002930AB /* RIGHT_Placer.c in Sources */,
+				D89C7D701D7DEC0A002930AB /* Random_Cell_Chooser.c in Sources */,
+				D89C7D731D7DF74F002930AB /* Ship_Locator.c in Sources */,
+				D89C7D761D7DFB06002930AB /* LEFT_Placer.c in Sources */,
+				D83470641D75039C003AE200 /* Global_Data.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D834705A1D74F901003AE200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D834705B1D74F901003AE200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D834705D1D74F901003AE200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D834705E1D74F901003AE200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83470501D74F901003AE200 /* Build configuration list for PBXProject "BattleShipGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D834705A1D74F901003AE200 /* Debug */,
+				D834705B1D74F901003AE200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D834705C1D74F901003AE200 /* Build configuration list for PBXNativeTarget "BattleShipGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D834705D1D74F901003AE200 /* Debug */,
+				D834705E1D74F901003AE200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D834704D1D74F901003AE200 /* Project object */;
+}
